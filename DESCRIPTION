@@ -1,0 +1,20 @@
+Package: meifunctions
+Title: Graphing meiotic time course data
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Funda",
+           family = "Kar",
+           role = c("aut", "cre"),
+           email = "fmk251@nyu.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package can be used to graph spore viability, sporulation efficiency, spindle data from meiotic timecourses. 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+	readxl,
+	ggplot2,
+	ggpubr
